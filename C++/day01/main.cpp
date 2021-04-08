@@ -10,5 +10,10 @@ int main() {
     std::cout << "a = "<< a << " b = " << b << " a + b = " << a +b << std::endl;
 
     std::cout << "a * b =" << a * b << std::endl;
+
+    std::cout << "/*";
+    std::cout << "*/";
+    std::cout << /* "*/" */";
+    std::cout << /* "*/" /* "/*" */;
     return 0;
 }
